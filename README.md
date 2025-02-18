@@ -1,7 +1,5 @@
 # 3_TAP_FIR_FILTER
 
-# 3-Tap FIR Filter
-
 ## Overview
 This project implements a 3-tap Finite Impulse Response (FIR) filter in FPGA . FIR filters are widely used in digital signal processing (DSP) applications for filtering signals while maintaining a linear phase response.
 
