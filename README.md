@@ -49,7 +49,7 @@ For FPGA implementations, the FIR filter can be described in Verilog using XILIN
 
 #Using Top- Down approach
 ## DATAPATH
-
+https://github.com/AnkitKumarWork/3_TAP_FIR_FILTER_TRANSPOSE_ARCH/tree/main/FIR_TOP_DOWN
 designed each submodule seperately and instantiate them using structural modelling.
 functional blocks(sub modules) required-
 - Reg_x 
