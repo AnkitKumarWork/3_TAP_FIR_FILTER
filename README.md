@@ -14,17 +14,17 @@ This project implements a 3-tap Finite Impulse Response (FIR) filter in FPGA . F
 - Supports real-time and offline processing.
 - Suitable for FPGA, ASIC, or software-based implementations.
 
-# FIR ARCHITECTURES
+## FIR ARCHITECTURES
 
-# DIRECT FORM ARCHITECTURE
+### DIRECT FORM ARCHITECTURE
 ![image](https://github.com/user-attachments/assets/4d9604fd-8028-4b67-ba15-b569f42981ba)
 
 
-# TRANSPOSE ARCHITECTURE
+### TRANSPOSE ARCHITECTURE
 ![image](https://github.com/user-attachments/assets/7a6b0431-e441-44ff-ae3d-e2524c321ff7)
 
 
-## Filter Equation
+### Filter Equation
 The output of the FIR filter is computed as:
 ![image](https://github.com/user-attachments/assets/6e1426b8-5272-464c-881c-3c978b7e967e)
 
