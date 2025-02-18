@@ -49,9 +49,9 @@ For FPGA implementations, the FIR filter can be described in Verilog using XILIN
 #Using Top- Down approach
 ## DATAPATH
 
-- designed each submodule seperately and instantiate them using structural modelling.
-- functional blocks(sub modules) required-
-- Reg_x
+designed each submodule seperately and instantiate them using structural modelling.
+functional blocks(sub modules) required-
+- Reg_x 
 - Reg_delay1
 - Reg_delay2
 - Reg_y
