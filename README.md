@@ -88,9 +88,3 @@ To test the FIR filter:
 - Image processing
 - Sensor signal conditioning
 
-## License
-This project is licensed under the MIT License.
-
-## Contact
-For any questions or improvements, feel free to contribute or reach out.
-
