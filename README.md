@@ -43,11 +43,11 @@ For FPGA implementations, the FIR filter can be described in Verilog using XILIN
 ![image](https://github.com/user-attachments/assets/f298a024-67f4-475c-b7e7-0380fae9d439)
 
 # IMPLEMENTATION 
-# By behavioural description
+## By behavioural description
 - designed using datapath and controller, datapath has been described just by giving behavioural verilog code.
 
-# Using Top- Down approach
-# DATAPATH
+#Using Top- Down approach
+## DATAPATH
 
 - designed each submodule seperately and instantiate them using structural modelling.
 - functional blocks(sub modules) required-
@@ -63,16 +63,16 @@ For FPGA implementations, the FIR filter can be described in Verilog using XILIN
   
 ![image](https://github.com/user-attachments/assets/58b973b3-3468-4322-8afa-50390ada0c35)
 
-#CONTROLLER
+## CONTROLLER
 
 ![image](https://github.com/user-attachments/assets/5f326f76-5fac-4632-86db-80968ddc7f8f)
 
-#TOP MODULE 
+## TOP MODULE 
 
 ![image](https://github.com/user-attachments/assets/67493065-5f31-4c1c-af0f-1b2a46886590)
 
 
-### 3. Simulation
+# Simulation
 To test the FIR filter:
 1. Apply a known input sequence.
    TESTBENCH - https://github.com/AnkitKumarWork/3_TAP_FIR_FILTER_TRANSPOSE_ARCH/blob/main/FIR_TOP_DOWN/TOP_FIR_TB.v
