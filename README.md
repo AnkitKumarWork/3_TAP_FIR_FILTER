@@ -43,7 +43,8 @@ For FPGA implementations, the FIR filter can be described in Verilog using XILIN
 ![image](https://github.com/user-attachments/assets/f298a024-67f4-475c-b7e7-0380fae9d439)
 
 # IMPLEMENTATION 
-## By behavioural description
+## By behavioural description 
+-https://github.com/AnkitKumarWork/3_TAP_FIR_FILTER_TRANSPOSE_ARCH/tree/main/FIR_BEHAV
 - designed using datapath and controller, datapath has been described just by giving behavioural verilog code.
 
 #Using Top- Down approach
