@@ -5,7 +5,7 @@
 ## Overview
 This project implements a 3-tap Finite Impulse Response (FIR) filter in FPGA . FIR filters are widely used in digital signal processing (DSP) applications for filtering signals while maintaining a linear phase response.
 
-##1 Features
+## 1 Features
 - Implements a simple 3-tap FIR filter.
 - Configurable filter coefficients.
 - h0 = 0.25;
@@ -42,11 +42,11 @@ For FPGA implementations, the FIR filter can be described in Verilog using XILIN
 #BLOCK DIAGRAM
 ![image](https://github.com/user-attachments/assets/f298a024-67f4-475c-b7e7-0380fae9d439)
 
-#IMPLEMENTATION 
-#1 By behavioural description
+# IMPLEMENTATION 
+# By behavioural description
 - designed using datapath and controller, datapath has been described just by giving behavioural verilog code.
 
-#2 Using Top- Down approach
+# Using Top- Down approach
 # DATAPATH
 
 - designed each submodule seperately and instantiate them using structural modelling.
